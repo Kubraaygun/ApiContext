@@ -4,10 +4,8 @@ import { useContext } from "react";
 import { BasketContext } from "../context/basketContext";
 
 const Header = () => {
-const context = useContext(BasketContext)
-const totalAmount = context.basket.reduce((total,i)=>total + i.amount,0)
-
-
+  const context = useContext(BasketContext);
+  const totalAmount = context.basket.reduce((total, i) => total + i.amount, 0);
 
   return (
     <header className="d-flex justify-content-between align-items-center  p-4 text-light sticky-top">

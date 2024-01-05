@@ -3,22 +3,17 @@ import MainPage from "./pages/MainPage";
 import Checkout from "./pages/Checkout";
 import Header from "./components/Header";
 
-
 function App() {
-
-  
   return (
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<MainPage />} />
 
-   <BrowserRouter>
-   <Header/>
-    <Routes>
-      <Route path="/" element={<MainPage/>}/>
-      
-      <Route path="/sepet" element={<Checkout/>}/>
+        <Route path="/sepet" element={<Checkout />} />
       </Routes>
-      </BrowserRouter>
-  
-  )
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

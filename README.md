@@ -2,11 +2,15 @@
 
 Bu proje, React Context API kullanarak bir alışveriş sepetini yönetmeyi amaçlamaktadır.
 
-
 <h2>Context API<h2>
--React Context API React uygulamalarında verileri iletmek ve paylaşmak için kullanılan bir özelliktir. Bu API bileşenler arasında veri iletişimini kolaylaştırarak "prop drilling" sorununu çözmeye yardımcı olur. Prop drilling bir bileşenin diğer alt bileşenlere veri aktarabilmek için bir dizi prop (özellik) kullanması durumudur.
--React Context API, bir veri deposu (store) oluşturmanıza ve bu depoyu uygulama genelinde paylaşmanıza olanak tanır. Böylece herhangi bir bileşen bu depoya erişim sağlayabilir ve depodaki verilere ihtiyaç duyduğunda kullanabilir. Bu özellik özellikle büyük ve karmaşık uygulamalarda veri yönetimini kolaylaştırır.
--Context API, özellikle global durum yönetimi, kullanıcı oturumu gibi uygulama genelinde paylaşılması gereken verilerin yönetimi için kullanılır. Bu sayede, verileri props zinciri boyunca iletmek yerine, ihtiyaç duyulan herhangi bir bileşen doğrudan ilgili context'ten veri alabilir.
+
+<ul>
+
+<li>React Context API React uygulamalarında verileri iletmek ve paylaşmak için kullanılan bir özelliktir. Bu API bileşenler arasında veri iletişimini kolaylaştırarak "prop drilling" sorununu çözmeye yardımcı olur. Prop drilling bir bileşenin diğer alt bileşenlere veri aktarabilmek için bir dizi prop (özellik) kullanması durumudur.</li>
+<li>React Context API, bir veri deposu (store) oluşturmanıza ve bu depoyu uygulama genelinde paylaşmanıza olanak tanır. Böylece herhangi bir bileşen bu depoya erişim sağlayabilir ve depodaki verilere ihtiyaç duyduğunda kullanabilir. Bu özellik özellikle büyük ve karmaşık uygulamalarda veri yönetimini kolaylaştırır. </li>
+<li>Context API, özellikle global durum yönetimi, kullanıcı oturumu gibi uygulama genelinde paylaşılması gereken verilerin yönetimi için kullanılır. Bu sayede, verileri props zinciri boyunca iletmek yerine, ihtiyaç duyulan herhangi bir bileşen doğrudan ilgili context'ten veri alabilir.</li>
+
+</ul>
 
 <h2> Özellikler </h2>
 
@@ -21,8 +25,6 @@ Bu proje, React Context API kullanarak bir alışveriş sepetini yönetmeyi ama�
 </li>
 </ul>
 
-
-
 <ul>
 <li> Sepet Sayfası (Checkout):
 <ul>
@@ -33,7 +35,6 @@ Bu proje, React Context API kullanarak bir alışveriş sepetini yönetmeyi ama�
 </ul>
 </li>
 </ul>
-
 
 <ul>
 <li> BasketContext ve BasketProvider:
@@ -52,8 +53,6 @@ Bu proje, React Context API kullanarak bir alışveriş sepetini yönetmeyi ama�
 </li>
 </ul>
 
-
-
 <ul>
 <li> Header Component:
 <ul>
@@ -64,10 +63,6 @@ Bu proje, React Context API kullanarak bir alışveriş sepetini yönetmeyi ama�
 </li>
 
 </ul>
-
-
-
-
 
 <h2> Kullanilan Teknolojiler </h2>
 <ul>

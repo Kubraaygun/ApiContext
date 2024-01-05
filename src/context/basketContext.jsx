@@ -10,7 +10,9 @@ export function BasketProvider({ children }) {
     if (found) {
       const updated = { ...found, amount: found.amount + 1 };
 
-      const newBasket = basket.map((item) => (item.id === updated.id ? updated : item));
+      const newBasket = basket.map((item) =>
+        item.id === updated.id ? updated : item
+      );
 
       setBasket(newBasket);
     } else {
@@ -23,7 +25,9 @@ export function BasketProvider({ children }) {
     if (found.amount > 1) {
       const updated = { ...found, amount: found.amount - 1 };
 
-      const newBasket = basket.map((item) => (item.id === updated.id ? updated : item));
+      const newBasket = basket.map((item) =>
+        item.id === updated.id ? updated : item
+      );
 
       setBasket(newBasket);
     } else {
