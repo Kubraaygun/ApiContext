@@ -14,56 +14,56 @@ Bu proje, React Context API kullanarak bir alışveriş sepetini yönetmeyi ama�
 
 <li> AnaSayfa (MainPage):
 <ul>
-<li>FakeStoreAPI üzerinden ürün verilerini Axios kullanarak çeker.<li>
-<li>Ana sayfada ürün kartlarını gösterir.<li>
-<li>Kullanıcılara ürünleri sepete eklemeleri için olanak tanır.<li>
-<ul>
-<li>
-<ul>
+<li>FakeStoreAPI üzerinden ürün verilerini Axios kullanarak çeker.</li>
+<li>Ana sayfada ürün kartlarını gösterir.</li>
+<li>Kullanıcılara ürünleri sepete eklemeleri için olanak tanır.</li>
+</ul>
+</li>
+</ul>
 
 
 
 <ul>
 <li> Sepet Sayfası (Checkout):
 <ul>
-<li>Kullanıcının sepetindeki ürünleri listeler.<li>
-<li>Toplam tutarı hesaplar ve gösterir.<li>
-<li>Her bir ürünü artırmak veya azaltmak için ok simgeleri ile etkileşim sağlar.<li>
-<li>Sepette hiç ürün yoksa, kullanıcıyı ürün eklemeye davet eder.<li>
-<ul>
-<li>
-<ul>
+<li>Kullanıcının sepetindeki ürünleri listeler.</li>
+<li>Toplam tutarı hesaplar ve gösterir.</li>
+<li>Her bir ürünü artırmak veya azaltmak için ok simgeleri ile etkileşim sağlar.</li>
+<li>Sepette hiç ürün yoksa, kullanıcıyı ürün eklemeye davet eder.</li>
+</ul>
+</li>
+</ul>
 
 
 <ul>
 <li> BasketContext ve BasketProvider:
 <ul>
-<li>BasketContext, alışveriş sepeti durumu ve ilgili fonksiyonlar için bir bağlam sağlar.<li>
-<li>BasketProvider bileşeni, alışveriş sepeti durumunu yönetmek için useState kullanır ve ürün eklemek veya çıkarmak için fonksiyonlar içerir.<li>
-<ul>
-<li>
-<ul>
+<li>BasketContext, alışveriş sepeti durumu ve ilgili fonksiyonlar için bir bağlam sağlar.</li>
+<li>BasketProvider bileşeni, alışveriş sepeti durumunu yönetmek için useState kullanır ve ürün eklemek veya çıkarmak için fonksiyonlar içerir.</li>
+</ul>
+</li>
+</ul>
 
 <ul>
 <li> Loading Component:
 <ul>
-<li>Veriler yüklenirken kullanıcıya bir yükleniyor mesajı gösterir.<li>
-<ul>
-<li>
-<ul>
+<li>Veriler yüklenirken kullanıcıya bir yükleniyor mesajı gösterir.</li>
+</ul>
+</li>
+</ul>
 
 
 
 <ul>
 <li> Header Component:
 <ul>
-<li>Sayfanın üst kısmında bulunan navigasyon başlığını oluşturur.<li>
-<li>Ana sayfa ve sepete yönlendiren linkler içerir.<li>
-<li>Sepetteki toplam ürün sayısını gösteren bir badge bulunur.<li>
-<ul>
-<li>
+<li>Sayfanın üst kısmında bulunan navigasyon başlığını oluşturur.</li>
+<li>Ana sayfa ve sepete yönlendiren linkler içerir.</li>
+<li>Sepetteki toplam ürün sayısını gösteren bir badge bulunur.</li>
+</ul>
+</li>
 
-<ul>
+</ul>
 
 
 
