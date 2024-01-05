@@ -19,7 +19,7 @@ Bu proje, React Context API kullanarak bir alışveriş sepetini yönetmeyi ama�
 <li>Kullanıcılara ürünleri sepete eklemeleri için olanak tanır.<li>
 <ul>
 <li>
-
+<ul>
 <li> Sepet Sayfası (Checkout):
 <ul>
 <li>Kullanıcının sepetindeki ürünleri listeler.<li>
@@ -28,20 +28,20 @@ Bu proje, React Context API kullanarak bir alışveriş sepetini yönetmeyi ama�
 <li>Sepette hiç ürün yoksa, kullanıcıyı ürün eklemeye davet eder.<li>
 <ul>
 <li>
-
+<ul>
 <li> BasketContext ve BasketProvider:
 <ul>
 <li>BasketContext, alışveriş sepeti durumu ve ilgili fonksiyonlar için bir bağlam sağlar.<li>
 <li>BasketProvider bileşeni, alışveriş sepeti durumunu yönetmek için useState kullanır ve ürün eklemek veya çıkarmak için fonksiyonlar içerir.<li>
 <ul>
 <li>
-
+<ul>
 <li> Loading Component:
 <ul>
 <li>Veriler yüklenirken kullanıcıya bir yükleniyor mesajı gösterir.<li>
 <ul>
 <li>
-
+<ul>
 <li> Header Component:
 <ul>
 <li>Sayfanın üst kısmında bulunan navigasyon başlığını oluşturur.<li>
