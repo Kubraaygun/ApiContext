@@ -2,7 +2,7 @@
 
 Bu proje, React Context API kullanarak bir alışveriş sepetini yönetmeyi amaçlamaktadır.
 
-<h2>Context API<h2>
+<h2>Context API</h2>
 
 <ul>
 
