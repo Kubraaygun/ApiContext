@@ -20,6 +20,10 @@ Bu proje, React Context API kullanarak bir alışveriş sepetini yönetmeyi ama�
 <ul>
 <li>
 <ul>
+
+
+
+<ul>
 <li> Sepet Sayfası (Checkout):
 <ul>
 <li>Kullanıcının sepetindeki ürünleri listeler.<li>
@@ -29,6 +33,9 @@ Bu proje, React Context API kullanarak bir alışveriş sepetini yönetmeyi ama�
 <ul>
 <li>
 <ul>
+
+
+<ul>
 <li> BasketContext ve BasketProvider:
 <ul>
 <li>BasketContext, alışveriş sepeti durumu ve ilgili fonksiyonlar için bir bağlam sağlar.<li>
@@ -36,11 +43,17 @@ Bu proje, React Context API kullanarak bir alışveriş sepetini yönetmeyi ama�
 <ul>
 <li>
 <ul>
+
+<ul>
 <li> Loading Component:
 <ul>
 <li>Veriler yüklenirken kullanıcıya bir yükleniyor mesajı gösterir.<li>
 <ul>
 <li>
+<ul>
+
+
+
 <ul>
 <li> Header Component:
 <ul>
